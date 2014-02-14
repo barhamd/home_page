@@ -4,13 +4,15 @@
     %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
     %meta{charset: 'utf-8'}
     /%link{rel: 'stylesheet', href: './css/simplex-bootstrap.css', media: 'screen'}
-    %link{rel: 'stylesheet', href: './css/bootstrap.css', media: 'screen'}
+    %link{href: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', rel: 'stylesheet', media: 'screen'}
+    %link{rel: 'stylesheet', href: './css/myresume.css', media: 'screen'}
     %link{rel: 'stylesheet', href: './css/overrides.css', media: 'screen'}
     /[if lt IE 9]
       <script src='https://html5shim.googlecode.com/svn/trunk/htmk5.js' type='text/javascript'></script>
 
   %body
 
+    /Navbar
     %nav.navbar.navbar-inverse.navbar-fixed-top{role: 'navigation'}
       .container
         .navbar-header
@@ -36,28 +38,187 @@
                   %a{href: '#'} Phonegap
                 %li
                   %a{href: '#'} Things
+    /Content
     .container
       .row
-        .col-xs-4
+        .col-md-4
           .well
             .avatar
-              %img.img-responsive{src: 'http://modalrabi.web.id/themes/myresume/img/avatar.jpg'}
-
-        .col-xs-8
-          %p
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue gravida ligula, ut euismod elit pulvinar et. Nam bibendum blandit nibh, lobortis blandit risus convallis ullamcorper. Mauris rutrum hendrerit lectus, vel pulvinar enim elementum sit amet. Phasellus sit amet sapien volutpat, egestas velit eu, rutrum sem. Cras tristique vitae metus at vestibulum. Phasellus nec adipiscing lacus. Integer ut hendrerit odio, a lacinia quam. Suspendisse non elementum felis, a auctor ante. Sed rutrum sed sapien nec sodales. Quisque consequat, urna eu volutpat eleifend, felis nulla rhoncus felis, eleifend cursus diam nisl ut eros. Morbi viverra sit amet nulla eleifend tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-            Nam placerat dictum molestie. Duis lobortis lacinia imperdiet. Maecenas at quam enim. Pellentesque cursus lobortis imperdiet. Phasellus placerat vestibulum leo, ut facilisis velit faucibus varius. Cras pulvinar urna a elit tempus, eget pellentesque diam dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vehicula nibh eu ligula tempus, non imperdiet velit dignissim. Etiam ut quam odio. Aliquam mollis tortor a tellus ultricies, id dapibus nisl egestas. Suspendisse fringilla nulla vel purus rutrum, ut porta odio adipiscing. Sed a odio in lorem blandit imperdiet ut sit amet quam. Praesent hendrerit sem eget ante eleifend pretium. Sed lacinia est eget adipiscing imperdiet. Nulla metus arcu, fermentum vitae mi sed, feugiat ultrices magna.
-            Mauris vel tortor nec massa dapibus viverra a nec dui. Curabitur vulputate sagittis adipiscing. Nulla non dolor ante. Pellentesque nec ipsum eros. In sit amet rhoncus velit, id imperdiet felis. Pellentesque vehicula turpis ligula, vitae gravida justo lacinia in. Phasellus sit amet vehicula libero, nec pretium mauris.
-            Suspendisse pellentesque libero eget felis mollis, sed gravida odio placerat. Quisque commodo vel lorem id rhoncus. Aliquam erat volutpat. Morbi aliquam blandit metus ut consectetur. Donec vulputate laoreet convallis. Curabitur laoreet nulla libero, eu tristique nulla pellentesque in. Donec laoreet tortor at mattis cursus. Donec sit amet eros lectus. Quisque accumsan ultricies convallis. Cras in libero gravida, tincidunt justo non, placerat dolor. Nullam ut blandit mauris, at volutpat sapien. Quisque sed ultricies metus, eu fermentum enim. Nulla sit amet dictum massa, quis consectetur risus. Aliquam id libero quis quam porttitor tincidunt. Mauris congue, neque vel elementum ultricies, neque purus lacinia orci, quis convallis tortor magna sed elit. Suspendisse ac sapien in magna dignissim lacinia a sed eros.
-            Vivamus non vulputate elit, id condimentum eros. Fusce mattis varius orci, eget imperdiet enim pretium non. Integer fringilla orci sed mi elementum, vel vulputate nisl suscipit. Etiam aliquet viverra augue, non pharetra leo fermentum nec. Nullam interdum consequat sagittis. Pellentesque non porttitor arcu, eget congue est. Suspendisse at libero dapibus, rhoncus justo eu, pellentesque augue. Praesent bibendum enim ut urna vulputate convallis.
-            Donec posuere molestie auctor. Aenean tincidunt lacinia mauris, ut vulputate ligula viverra non. Curabitur accumsan rhoncus urna. Aliquam feugiat libero in leo tristique porttitor. Nullam sollicitudin, elit dapibus varius placerat, nisl leo dapibus erat, vitae porta lacus nibh id dolor. Suspendisse rutrum imperdiet libero sit amet rhoncus. Aliquam aliquam pharetra libero mollis dapibus. Quisque eleifend placerat orci. Aliquam viverra, tellus ac dapibus vehicula, nisl lectus mollis risus, sed imperdiet nunc nibh ullamcorper magna. Duis venenatis sodales magna et mattis. Phasellus feugiat eros eget nibh tempor, ut vehicula metus rhoncus.
-            Nam sit amet velit tincidunt, vehicula nulla non, accumsan purus. Integer tincidunt sollicitudin sollicitudin. Cras risus justo, rhoncus eu dignissim vitae, posuere at purus. Ut nisl tellus, rhoncus a vestibulum eget, dapibus eget nisl. Fusce cursus sed felis non tristique. Nulla et odio at ligula sollicitudin posuere. Aliquam eget dui diam. Sed accumsan velit in leo imperdiet, id aliquam ligula aliquet. Etiam sit amet lectus suscipit, bibendum eros a, sollicitudin orci.
-            Pellentesque cursus, felis eget porttitor vulputate, nibh arcu varius lacus, vel pulvinar leo arcu eu enim. Quisque laoreet libero velit, gravida gravida nibh malesuada vitae. Sed at dolor est. Suspendisse elementum vel nibh sed gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus gravida dictum augue, non rutrum nisl rutrum eget. Proin mollis id sem eu tempus.
-            Nunc condimentum, nunc et posuere ullamcorper, quam dolor consectetur ipsum, sed mattis lorem nisl nec nulla. Vivamus nec interdum nunc, vitae interdum ligula. Ut sodales orci a libero euismod dictum. Proin ultricies facilisis diam, a elementum leo. Pellentesque adipiscing sapien vitae lectus commodo, ac suscipit nunc aliquet. Nam ullamcorper scelerisque varius. Pellentesque dictum magna non quam mollis, et faucibus eros dictum.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vitae placerat est. Phasellus quis tempor arcu, eu aliquam neque. Curabitur eget diam imperdiet, pulvinar urna vel, hendrerit augue. In blandit convallis urna. Pellentesque facilisis metus nec sodales sodales. Cras sagittis laoreet ipsum. Aenean quam nisi, fringilla in odio a, euismod gravida eros. Nunc arcu purus, venenatis placerat risus a, porta mollis ipsum.
-
-
-
-
+              %img{src: "img/avatar.jpg"}/
+            / /avatar
+            %br.clearfix/
+            .bio
+              %h1 Avriq Ramadhan
+              %p Recreational Developer, Designer  Bowler
+            / /bio
+            %br.clearfix/
+            .contact
+              %p
+                1234 main St.
+                %i.glyphicon.glyphicon-home
+              %p
+                Anytown, XX 12345
+                %i.glyphicon.glyphicon-map-marker
+              %p
+                (555)123-4567
+                %i.glyphicon.glyphicon-signal
+              %p
+                www.yoursite.com
+                %i.glyphicon.glyphicon-globe
+              %p
+                Avriq@domainname.com
+                %i.glyphicon.glyphicon-envelope
+            / /contact
+            %br.clearfix/
+            .button.no-display
+              %p
+                %a#print.btn.btn-default.no-radius.btn-resume.no-display{href: "#"}
+                  %i.glyphicon.glyphicon-print
+                  Print
+                %a.btn.btn-default.no-radius.btn-resume.no-display{href: "javascript:void(location.href='http://www.pdfspot.com/html-to-pdf-converter.aspx?url=' + escape(location.href)+'=' + escape('') + '=portrait=A4=true' )"}
+                  %i.glyphicon.glyphicon-download-alt
+                  Download
+                %a.btn.btn-default.no-radius.btn-resume.no-display{href: "#"}
+                  %i.glyphicon.glyphicon-list-alt
+                  vCard
+            / /button
+          / /.well
+        / /span
+        .col-md-8
+          .jumbotron
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non urna ut nisl rhoncus gravida.
+              Morbi placerat libero at lectus gravida suscipit. Nam hendrerit dolor ut lacus euismod scelerisque.
+              Etiam vitae congue risus. Quisque vitae mattis mi. Nulla sed tristique felis.
+              Mauris scelerisque augue a nunc aliquet consequat. Duis iaculis nisl vitae erat interdum quis eleifend
+              urna ultricies. Praesent malesuada erat eget mi vehicula cursus. Donec nec iaculis nunc.
+              Proin sed tortor mi, in varius nisl. Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Nullam quis tincidunt felis. Duis mi sem, eleifend eu suscipit non,
+              congue et lorem. Praesent nibh lacus, faucibus ac congue at, blandit ac erat. Vestibulum non metus metus.
+          .header
+            %h2 Education.
+            %hr/
+          .row
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+          .row
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+          .header
+            %h2 Certifications  Training.
+            %hr/
+          .row
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+          .header
+            %h2 Expertise.
+            %hr/
+          .row
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+          .row
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-6
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+          .header
+            %h2 Work Experience.
+            %hr/
+          .row
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Cras lobortis
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Donec lobortis, lectus sed
+              %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            / /span
+          / /row
+        / /span
+      / /row
+      %hr/
+      %footer
+        %p
+          %i.glyphicon.glyphicon-home
+          1234 main St.
+          %i.glyphicon.glyphicon-map-marker
+          Anytown, XX 12345
+          %i.glyphicon.glyphicon-signal
+          (555)123-4567
+          %i.glyphicon.glyphicon-globe
+          www.yoursite.com
+          %i.glyphicon.glyphicon-envelope
+          John.doe@domainname.com
+    / /.container
     %script{src: 'https://code.jquery.com/jquery-1.10.2.min.js'}
-    %script{src: './js/bootstrap.js'}
+    %script{src: './js/myresume.js'}
+    %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
