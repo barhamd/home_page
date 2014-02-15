@@ -66,6 +66,10 @@ body {
     text-align:center;
 }
 
+.bio h1{
+  margin: 0;
+}
+
 .contact{
     width:250px;
     margin:10px auto;
