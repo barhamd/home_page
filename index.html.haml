@@ -60,21 +60,21 @@
                 (561) 948-1526
                 %i.glyphicon.glyphicon-signal
               %p
-                devinbarham.com
+                %a{href: 'http://devinbarham.com'} devinbarham.com
                 %i.glyphicon.glyphicon-globe
               %p
                 %a{href: 'mailto:devin.barham@gmail.com'} devin.barham@gmail.com
                 %i.glyphicon.glyphicon-envelope
             / /contact
-            %br.clearfix/
-            .button.no-display
-              %p
-                %a#print.btn.btn-default.no-radius.btn-resume.no-display{href: "#"}
-                  %i.glyphicon.glyphicon-print
-                  Print
-                %a.btn.btn-default.no-radius.btn-resume.no-display{href: "javascript:void(location.href='http://www.pdfspot.com/html-to-pdf-converter.aspx?url=' + escape(location.href)+'=' + escape('') + '=portrait=A4=true' )"}
-                  %i.glyphicon.glyphicon-download-alt
-                  Download
+            -#%br.clearfix/
+            -#.button.no-display
+              -#%p
+                -#%a#print.btn.btn-default.no-radius.btn-resume.no-display{href: "#"}
+                  -#%i.glyphicon.glyphicon-print
+                  -#Print
+                -#%a.btn.btn-default.no-radius.btn-resume.no-display{href: "#"}
+                  -#%i.glyphicon.glyphicon-download-alt
+                  -#Download
             / /button
           / /.well
         / /span
@@ -212,7 +212,7 @@
           %i.glyphicon.glyphicon-signal
           (561) 948-1526
           %i.glyphicon.glyphicon-globe
-          devinbarham.com
+            %a{href: 'http://devinbarham.com'} devinbarham.com
           %i.glyphicon.glyphicon-envelope
           %a{href: 'mailto:devin.barham@gmail.com'} devin.barham@gmail.com
     / /.container
