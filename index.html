@@ -3,51 +3,246 @@
     <title>Devin Barham</title>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <meta charset='utf-8'>
-    <link href='./css/simplex-bootstrap.css' media='screen' rel='stylesheet'>
+    <!-- %link{rel: 'stylesheet', href: './css/simplex-bootstrap.css', media: 'screen'} -->
+    <link href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' media='screen' rel='stylesheet'>
+    <link href='./css/myresume.css' media='screen' rel='stylesheet'>
+    <link href='./css/overrides.css' media='screen' rel='stylesheet'>
     <!--[if lt IE 9]>
       <script src='https://html5shim.googlecode.com/svn/trunk/htmk5.js' type='text/javascript'></script>
     <![endif]-->
   </head>
   <body>
+    <!-- Navbar -->
     <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
-      <div class='navbar-header'>
-        <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse'>
-          <span class='sr-only'>Toggle navigation</span>
-          <span class='icon-bar'></span>
-          <span class='icon-bar'></span>
-          <span class='icon-bar'></span>
-        </button>
-        <a class='navbar-brand' href='http://devinbarham.com'>Devin Barham</a>
-      </div>
-      <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-        <ul class='nav navbar-nav'>
-          <li>
-            <a href='#'>About Me</a>
-          </li>
-          <li>
-            <a href='#'>Résumé</a>
-          </li>
-          <li class='dropdown'>
-            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-              Projects
-              <b class='caret'></b>
-            </a>
-            <ul class='dropdown-menu'>
-              <li>
-                <a href='#'>Phonegap</a>
-              </li>
-              <li>
-                <a href='#'>Things</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <div class='container'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand' href='http://devinbarham.com'>Devin Barham</a>
+        </div>
+        <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href='#'>About Me</a>
+            </li>
+            <li>
+              <a href='#'>Résumé</a>
+            </li>
+            <li class='dropdown'>
+              <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                Projects
+                <b class='caret'></b>
+              </a>
+              <ul class='dropdown-menu'>
+                <li>
+                  <a href='#'>Phonegap</a>
+                </li>
+                <li>
+                  <a href='#'>Things</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Content -->
     <div class='container'>
-      <h1>This is a test paragraph</h1>
+      <div class='row'>
+        <div class='col-md-4'>
+          <div class='well'>
+            <div class='avatar'>
+              <img src='img/avatar.jpg'>
+            </div>
+            <!-- /avatar -->
+            <br class='clearfix'>
+            <div class='bio'>
+              <h1>Devin Barham</h1>
+              <p>Passion, Initiative, Power</p>
+            </div>
+            <!-- /bio -->
+            <br class='clearfix'>
+            <div class='contact'>
+              <p>
+                Gainesville, Fl
+                <i class='glyphicon glyphicon-map-marker'></i>
+              </p>
+              <p>
+                (561) 948-1526
+                <i class='glyphicon glyphicon-signal'></i>
+              </p>
+              <p>
+                devinbarham.com
+                <i class='glyphicon glyphicon-globe'></i>
+              </p>
+              <p>
+                <a href='mailto:devin.barham@gmail.com'>devin.barham@gmail.com</a>
+                <i class='glyphicon glyphicon-envelope'></i>
+              </p>
+            </div>
+            <!-- /contact -->
+            <br class='clearfix'>
+            <div class='button no-display'>
+              <p>
+                <a class='btn btn-default no-radius btn-resume no-display' href='#' id='print'>
+                  <i class='glyphicon glyphicon-print'></i>
+                  Print
+                </a>
+                <a class='btn btn-default no-radius btn-resume no-display' href="javascript:void(location.href='http://www.pdfspot.com/html-to-pdf-converter.aspx?url=' + escape(location.href)+'=' + escape('') + '=portrait=A4=true' )">
+                  <i class='glyphicon glyphicon-download-alt'></i>
+                  Download
+                </a>
+              </p>
+            </div>
+            <!-- /button -->
+          </div>
+          <!-- /.well -->
+        </div>
+        <!-- /span -->
+        <div class='col-md-8'>
+          <div class='jumbotron'>
+            <p>
+              In the summer of 2012, I joined Gainesville's hackerspace
+              "Skillhouse". I was amazed by the projects I saw there. Drawing
+              bots, 3D printers, hacked LED christmas lights, home server
+              security systems, etc. And it was all possible because of
+              programming. I was fortunate that the people who created these
+              amazing contraptions were also more than willing to teach and
+              tutor anyone excited to learn. I surrounded myself with
+              this culture of creating and teaching and soon became on the
+              Board of Directors for the hackerspace. Fast forward to now and
+              I'm a full time Ruby on Rails developer at a startup that is
+              quickly leaving it's infancy. Web development did not come easily
+              to me but I was hooked on honing my skills. My passion now is to
+              help those who want to learn.
+            </p>
+          </div>
+          <div class='header'>
+            <h2>Projects.</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Simple Calorie Tracker
+              </h4>
+              <p>Didn't have a smartphone, so I developed this app to track my calorie consumption on the go via SMS.</p>
+            </div>
+            <!-- /span -->
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                IRritator
+              </h4>
+              <p>Toy to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds.</p>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='row'>
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Stuff Game
+              </h4>
+              <p>A game designed to be played on any screen, near or far from your friends.</p>
+            </div>
+            <!-- /span -->
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Hackerspace Member Registration
+              </h4>
+              <p>Developed to reduce the workload of the Hackerspace's Secretary.</p>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='header'>
+            <h2>Work Experience.</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Shadow Health, Inc.
+              </h4>
+              <h5>Nursing software company with over 11,000 users</h5>
+              <h5>Solution Stack:</h5>
+              <p>Ruby on Rails, jQuery, PostgreSQL, Heroku, Rspec</p>
+              <h5>Work I'm proud of:</h5>
+              <ul>
+                <li>Created an internal analytics app to analyze user interaction</li>
+                <li>Redesigned registration process reducing duplicate accounts...kind of</li>
+              </ul>
+            </div>
+            <!-- /span -->
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Pathway Systems
+              </h4>
+              <h5>SaaS Dependency Mapping Startup</h5>
+              <h5>Work I'm proud of:</h5>
+              <ul>
+                <li>Significantly improved contact form conversion rate</li>
+                <li>Produced promotional and instructional product videos</li>
+                <li>Created a marketing campaign that significantly increased clientele</li>
+              </ul>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='header'>
+            <h2>Hobbies</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Gainesville Hackerspace
+              </h4>
+              <p>Have been a member of the Hackerspace since early 2012. Have demoed projects. Became the Secretary. Helped teach a class (mention this here or in the tutoring section?).</p>
+            </div>
+            <!-- /span -->
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Tutoring
+              </h4>
+              <p>Tutored at the YMCA. Tutored numerous beginners. Consulted KarmaSapien (or should this go somewhere else?)</p>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+        </div>
+        <!-- /span -->
+      </div>
+      <!-- /row -->
+      <hr>
+      <footer>
+        <p>
+          <i class='glyphicon glyphicon-map-marker'></i>
+          Gainesville, Fl
+          <i class='glyphicon glyphicon-signal'></i>
+          (561) 948-1526
+          <i class='glyphicon glyphicon-globe'></i>
+          devinbarham.com
+          <i class='glyphicon glyphicon-envelope'></i>
+          <a href='mailto:devin.barham@gmail.com'>devin.barham@gmail.com</a>
+        </p>
+      </footer>
     </div>
+    <!-- /.container -->
     <script src='https://code.jquery.com/jquery-1.10.2.min.js'></script>
-    <script src='./js/bootstrap.js'></script>
+    <script src='./js/myresume.js'></script>
+    <script src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
   </body>
 </html>
