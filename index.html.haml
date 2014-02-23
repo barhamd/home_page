@@ -3,7 +3,6 @@
     %title Devin Barham
     %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
     %meta{charset: 'utf-8'}
-    /%link{rel: 'stylesheet', href: './css/simplex-bootstrap.css', media: 'screen'}
     %link{href: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', rel: 'stylesheet', media: 'screen'}
     %link{rel: 'stylesheet', href: './css/myresume.css', media: 'screen'}
     %link{rel: 'stylesheet', href: './css/overrides.css', media: 'screen'}
@@ -87,39 +86,88 @@
               development. Fast forward to now and I'm a full time Ruby on
               Rails developer at a startup that is quickly leaving it's
               infancy.
-          -#.header
-            -#%h2 Education.
-            -#%hr/
-          -#.row
-            -#.col-md-6
-              -#%h4
-                -#%i.glyphicon.glyphicon-plus
-                -#Donec lobortis, lectus sed
-              -#%p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            -#/ /span
-            -#.col-md-6
-              -#%h4
-                -#%i.glyphicon.glyphicon-plus
-                -#Cras lobortis
-              -#%p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            -#/ /span
-          -#/ /row
-          -#.row
-            -#.col-md-6
-              -#%h4
-                -#%i.glyphicon.glyphicon-plus
-                -#Donec lobortis, lectus sed
-              -#%p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            -#/ /span
-            -#.col-md-6
-              -#%h4
-                -#%i.glyphicon.glyphicon-plus
-                -#Cras lobortis
-              -#%p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            -#/ /span
-          -#/ /row
           .header
-            %h2 Personal Projects
+            %h2 Work Experience
+            %hr/
+          .row
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Shadow Health, Inc., Rails Developer
+              %h5 Nursing software company with 11,000+ users
+              %h5 Solution Stack:
+              %p Ruby on Rails, jQuery, CoffeeScript, PostgreSQL, Heroku, Rspec
+              %h5 Work I'm proud of:
+              %ul
+                %li
+                  Created a custom analytics app allowing each user session
+                  to be analyzed. By logging each controller#action, this app
+                  enabled User Support to diagnose problems quicker, as well as
+                  allow developers to determine the most used features of the
+                  site.
+                %li Redesigned registration process reducing duplicate account creation. This also reduced the number of steps a user had to take to register.
+                %li Simplified the registration process by utilizing Ajax to combine multiple forms into one. This significantly reduced the duplicate account creation.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Pathway Systems, Junior Tech.
+              %h5 SaaS Dependency Mapping Startup
+              %h5 Work I'm proud of:
+              %ul
+                %li Increased contact form conversion rate using simple changes to the site layout.
+                %li Produced and narrated instructional videos for onboarding new clients.
+                %li Created a marketing campaign using Google Adwords.
+            / /span
+          / /row
+          .header
+            %h2 Relevant Experience
+            %hr/
+          .row
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Gainesville Hackerspace, Secretary
+              %ul
+                %li
+                  Co-organized and taught a Beginner's Arduino class. In four
+                  hours, a group of 20 participants learned how to interface with
+                  an Arduino, move servos, use RGB leds, and make noise by taking
+                  input from sensors.
+                %li
+                  Gave multiple talks on getting started with programming at
+                  our Demo Nights, as well as for 
+                  %a{href: 'https://www.facebook.com/events/502080216498097/' }The Entrepenuer Club.
+                  Basically a "What I wish I knew" talk followed by Q&amp;A
+                %li Onboarded new members. Let them know how to get involved, what events were coming up, and how to become a member.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                KarmaSapien, Consultant
+              %h5 Local startup which supports a charity monthly by selling custom t-shirts
+              %p
+                I consulted with KarmaSapien's founder
+                %a{href:'www.linkedin.com/in/erictildencivil'} Eric Tilden
+                to set up the initial domain, and hosting, as well as construct a development path. After interviewing several applicants for web developers, we ultimately decided on a web development firm,
+                %a{href:'http://www.parisleaf.com/'} Paris Leaf
+                , to develop the site. I continued consulting with KarmaSapien to make small fixes and improvements to the site.
+            / /span
+            .col-md-8
+              %h4
+                %i.glyphicon.glyphicon-plus
+                Tutoring, Enthusiast
+              %p
+                I enjoy teaching anyone who is interested in learning. I have
+                co-taught an Arduino class at the hackerspace, tutored K-8 at
+                the local YMCA, and currently tutor web development 2-3 days a week. I
+                have also
+                %a{href: 'https://www.facebook.com/events/561807407201008/'}  given talks
+                on getting started with programming.
+            / /span
+          / /row
+          .header
+            %h2 In My Spare Time
             %hr/
           .row
             .col-md-6
@@ -153,83 +201,18 @@
                 IRritator
               %p Toy to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds.
             / /span
-          / /row
-          .header
-            %h2 Work Experience
-            %hr/
           .row
-            .col-md-8
-              %h4
-                %i.glyphicon.glyphicon-plus
-                Shadow Health, Inc.
-              %h5 Nursing software company with over 11,000 users
-              %h5 Solution Stack:
-              %p Ruby on Rails, jQuery, PostgreSQL, Heroku, Rspec
-              %h5 Work I'm proud of:
-              %ul
-                %li Created a custom analytics app allowing each user session
-                to be analyzed. This enabled User Support to diagnose problems
-                quicker, as well as allow developers to determine the most used
-                features of the site.
-                %li Redesigned registration process reducing duplicate account creation. This also reduced the number of steps a user had to take to register.
-                %li Simplified the registration process by utilizing Ajax to combine multiple forms into one. This significantly reduced the duplicate account creation.
-            / /span
-            .col-md-8
-              %h4
-                %i.glyphicon.glyphicon-plus
-                Pathway Systems
-              %h5 SaaS Dependency Mapping Startup
-              %h5 Work I'm proud of:
-              %ul
-                %li Increased contact form conversion rate using simple changes to the site layout.
-                %li Produced and narrated instructional videos for onboarding new clients.
-                %li Created a marketing campaign using Google Adwords.
-            / /span
-          / /row
-          .header
-            %h2 Relevant Experience
-            %hr/
-          .row
-            .col-md-8
-              %h4
-                %i.glyphicon.glyphicon-plus
-                Gainesville Hackerspace
-              %h5 Secretary
-              %ul
-                %li Co-organized and taught Arduino class
-                %li Gave talks on getting started with programming
-                %li Onboarded new members
-            / /span
-            .col-md-8
-              %h4
-                %i.glyphicon.glyphicon-plus
-                Tutoring
-              %p Tutored at the YMCA.
-            / /span
-            .col-md-8
-              %h4
-                %i.glyphicon.glyphicon-plus
-                Consulted Karmasapien
-              %ul
-                %li Translated tech talk
-                %li Interviewed developers
-                %li Fixed issues
-            / /span
-          / /row
-          .header
-            %h2 Really Just Hobbies
-            %hr/
-          .row
-            .col-md-8
+            .col-md-6
               %h4
                 %i.glyphicon.glyphicon-plus
                 Chemistry
               %ul
                 %li
-                  After much trial and tribulation,
-                  %a{href: 'http://youtu.be/-RG3nH6Wwms', target: '_blank'} I created a small amount of ferrofluid
-                %li Isolated gold from old computer parts
+                  After much trial and tribulation, I created
+                  %a{href: 'http://youtu.be/-RG3nH6Wwms', target: '_blank'} a small amount of ferrofluid
+                %li Isolating precious metals from electronics
             / /span
+          / /row
           / /row
         / /span
       / /row
