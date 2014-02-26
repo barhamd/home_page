@@ -103,3 +103,7 @@ text-align:center;
 .employment-dates {
   margin-top: 5px;
 }
+
+a:visited {
+  color: #2a6496;
+}
