@@ -24,19 +24,15 @@
 
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
           %ul.nav.navbar-nav
-            %li
-              %a{href: '#'} About Me
-            %li
-              %a{href: '#'} Résumé
             %li.dropdown
               %a.dropdown-toggle{'data-toggle' => 'dropdown', href: '#'}
                 Projects
                 %b.caret
               %ul.dropdown-menu
                 %li
-                  %a{href: '#'} Phonegap
+                  %a{href: 'https://github.com/barhamd/simple_calorie_tracker', target: '_blank'} Simple Calorie Tracker
                 %li
-                  %a{href: '#'} Things
+                  %a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
     /Content
     .container
       .row
@@ -116,7 +112,7 @@
               %ul
                 %li Building a contact form with a corresponding 'Call to Action' button to direct visitors.
                 %li Producing and editing promotional videos.
-                %li Created a marketing campaign using Google Adwords.
+                %li Creating a marketing campaign using Google Adwords.
             / /span
           / /row
           .header
@@ -166,7 +162,7 @@
                   an Arduino, move servos, use RGB leds, and make noise by taking
                   input from sensors.
                 %li
-                  Gave multiple talks on getting started with programming at
+                  Gave talks on getting started with programming at
                   our Demo Nights, as well as for 
                   %a{href: 'https://www.facebook.com/events/561807407201008/', target: '_blank'}The Entrepenuer Club.
                   Basically a "What I wish I knew" talk followed by Q&amp;A
@@ -210,7 +206,7 @@
                 %i.glyphicon.glyphicon-plus
                 %a{href: 'https://github.com/barhamd/simple_calorie_tracker', target: '_blank'} Simple Calorie Tracker
               %p
-                A very simple app for quickly tracking calories. I have a
+                A rails app for quickly tracking calories. I have a
                 tendency to try and record far too many details. This causes me
                 to stop recording quickly as it becomes too much of a hassle. I
                 created this app to only have a simple form and a simple
@@ -219,8 +215,11 @@
             .col-md-6
               %h4
                 %i.glyphicon.glyphicon-plus
-                %a{href: 'https://github.com/barhamd/new-member'} Hackerspace Member Registration
-              %p Developed to reduce the workload of the Hackerspace's Secretary.
+                %a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
+              %p
+                A simple single page sinatra app. Developed to reduce the
+                workload of the Hackerspace's Secretary. Collects a members info
+                and sends it off to the hackerspace board.
             / /span
           / /row
           .row
@@ -228,13 +227,19 @@
               %h4
                 %i.glyphicon.glyphicon-plus
                 Sous-Vide
-              %p All of the commercial sous-vide devices were hundreds to thousands of dollars. Decided to construct 
+              %p
+                %a{href: 'http://www.linkedin.com/in/markwhiting', target: '_blank'}
+                  Mark Whiting
+                and I created this one summer. We wanted to try
+                sous-vide but commercial sous-vide machines were $800+ at the
+                time. We created this using a $50 PID controller, some wiring,
+                and a custom laser cut acrylic box.
             / /span
             .col-md-6
               %h4
                 %i.glyphicon.glyphicon-plus
                 IRritator
-              %p Toy to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds.
+              %p Toy to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds. Code coming soon!
             / /span
           .row
             .col-md-6
