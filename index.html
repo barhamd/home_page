@@ -3,7 +3,6 @@
     <title>Devin Barham</title>
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <meta charset='utf-8'>
-    <!-- %link{rel: 'stylesheet', href: './css/simplex-bootstrap.css', media: 'screen'} -->
     <link href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' media='screen' rel='stylesheet'>
     <link href='./css/myresume.css' media='screen' rel='stylesheet'>
     <link href='./css/overrides.css' media='screen' rel='stylesheet'>
@@ -13,7 +12,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+    <nav class='navbar navbar-inverse navbar-static-top' role='navigation'>
       <div class='container'>
         <div class='navbar-header'>
           <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse'>
@@ -62,7 +61,7 @@
             <br class='clearfix'>
             <div class='bio'>
               <h1>Devin Barham</h1>
-              <p>Passion, Initiative, Power</p>
+              <p>Rails Developer</p>
             </div>
             <!-- /bio -->
             <br class='clearfix'>
@@ -73,10 +72,10 @@
               </p>
               <p>
                 (561) 948-1526
-                <i class='glyphicon glyphicon-signal'></i>
+                <i class='glyphicon glyphicon-earphone'></i>
               </p>
               <p>
-                devinbarham.com
+                <a href='http://devinbarham.com'>devinbarham.com</a>
                 <i class='glyphicon glyphicon-globe'></i>
               </p>
               <p>
@@ -85,20 +84,6 @@
               </p>
             </div>
             <!-- /contact -->
-            <br class='clearfix'>
-            <div class='button no-display'>
-              <p>
-                <a class='btn btn-default no-radius btn-resume no-display' href='#' id='print'>
-                  <i class='glyphicon glyphicon-print'></i>
-                  Print
-                </a>
-                <a class='btn btn-default no-radius btn-resume no-display' href="javascript:void(location.href='http://www.pdfspot.com/html-to-pdf-converter.aspx?url=' + escape(location.href)+'=' + escape('') + '=portrait=A4=true' )">
-                  <i class='glyphicon glyphicon-download-alt'></i>
-                  Download
-                </a>
-              </p>
-            </div>
-            <!-- /button -->
           </div>
           <!-- /.well -->
         </div>
@@ -106,32 +91,207 @@
         <div class='col-md-8'>
           <div class='jumbotron'>
             <p>
-              In the summer of 2012, I joined Gainesville's hackerspace
-              "Skillhouse". I was amazed by the projects I saw there. Drawing
-              bots, 3D printers, hacked LED christmas lights, home server
-              security systems, etc. And it was all possible because of
-              programming. I was fortunate that the people who created these
-              amazing contraptions were also more than willing to teach and
-              tutor anyone excited to learn. I surrounded myself with
-              this culture of creating and teaching and soon became on the
-              Board of Directors for the hackerspace. Fast forward to now and
-              I'm a full time Ruby on Rails developer at a startup that is
-              quickly leaving it's infancy. Web development did not come easily
-              to me but I was hooked on honing my skills. My passion now is to
-              help those who want to learn.
+              At the start of 2012, I joined Gainesville's hackerspace
+              <a href='http://www.skillhouse.org' target='_blank'>"Skillhouse"</a>
+              and was soon asked to be on the Board of Directors.
+              Being part of that environment quickly led me to a career in web
+              development. Fast forward to now and I'm a full time Ruby on
+              Rails developer at a startup that has quickly grown to
+              <a href='http://shadowhealth.com/' target='_blank'>11,000+ users.</a>
             </p>
           </div>
           <div class='header'>
-            <h2>Projects.</h2>
+            <h2>Work Experience</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                <a href='http://shadowhealth.com/' target='_blank'>Shadow Health, Inc.</a>
+                <i>Rails Developer</i>
+                <div class='small employment-dates'>04/2013 - Present</div>
+              </h4>
+              <h5>Nursing education software company with 11,000+ users</h5>
+              <h5>Solution Stack:</h5>
+              <p>Ruby on Rails, jQuery, CoffeeScript, Sass, PostgreSQL, Heroku, Rspec</p>
+              <h5>Work I'm proud of:</h5>
+              <ul>
+                <li>
+                  Created a custom analytics app allowing each user session
+                  to be analyzed. By logging each controller#action, this app
+                  enabled User Support to diagnose problems quicker, as well as
+                  allow developers to determine the most used features of the
+                  site.
+                </li>
+                <li>
+                  Duplicate user registration was occuring with nearly 50% of
+                  new users. Simplifying the registration process by utilizing
+                  Ajax to combine multiple forms into one reduced this to less
+                  than 5%.
+                </li>
+              </ul>
+            </div>
+            <!-- /span -->
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                <a href='http://pathwaysystems.com/' target='_blank'>Pathway Systems</a>
+                <i>Junior Tech.</i>
+                <div class='small employment-dates'>02/2012 - 08/2012</div>
+              </h4>
+              <h5>SaaS Dependency Mapping company</h5>
+              <h5>Work I'm proud of:</h5>
+              <p>While at Pathway Systems, I tripled the number of new client inquiries by:</p>
+              <ul>
+                <li>Building a contact form with a corresponding 'Call to Action' button to direct visitors.</li>
+                <li>Producing and editing promotional videos.</li>
+                <li>Created a marketing campaign using Google Adwords.</li>
+              </ul>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='header'>
+            <h2>Web Skills</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-8'>
+              <div class='col-md-6'>
+                <h4>
+                  Current Skills
+                </h4>
+                <ul>
+                  <li>Ruby on Rails</li>
+                  <li>Sinatra</li>
+                  <li>HTML5</li>
+                  <li>HAML</li>
+                  <li>JavaScript</li>
+                  <li>CoffeeScript</li>
+                  <li>jQuery</li>
+                  <li>CSS3</li>
+                  <li>Sass</li>
+                  <li>Git</li>
+                  <li>Unix</li>
+                  <li>Heroku</li>
+                </ul>
+              </div>
+              <div class='col-md-6'>
+                <h4>
+                  Budding Skills
+                </h4>
+                <ul>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+                  <li>nginx</li>
+                  <li>Capistrano</li>
+                </ul>
+              </div>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='header'>
+            <h2>Relevant Experience</h2>
+            <hr>
+          </div>
+          <div class='row'>
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                <a href='http://skillhouse.org' target='_blank'>Gainesville Hackerspace</a>
+                <i>Board of Directors: Secretary</i>
+              </h4>
+              <ul>
+                <li>
+                  Co-organized and taught a Beginner's Arduino class. In four
+                  hours, a group of 20 participants learned how to interface with
+                  an Arduino, move servos, use RGB leds, and make noise by taking
+                  input from sensors.
+                </li>
+                <li>
+                  Gave multiple talks on getting started with programming at
+                  our Demo Nights, as well as for
+                  <a href='https://www.facebook.com/events/561807407201008/' target='_blank'>The Entrepenuer Club.</a>
+                  Basically a "What I wish I knew" talk followed by Q&amp;A
+                </li>
+                <li>Onboarded new members. Let them know how to get involved, what events were coming up, and how to become a member.</li>
+                <li>Demoed projects such as my sous-vide machine</li>
+              </ul>
+            </div>
+            <!-- /span -->
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                <a href='http://karmasapien.org' target='_blank'>KarmaSapien</a>
+                <i>Consultant</i>
+              </h4>
+              <h5>Local startup which supports a charity monthly by selling custom t-shirts</h5>
+              <p>
+                I consulted with KarmaSapien's founder
+                <a href='http://www.linkedin.com/in/erictildencivil' target='_blank'>Eric Tilden</a>
+                to set up the initial domain, and hosting, as well as construct a development path. After interviewing several applicants for web developers, we ultimately decided on a web development firm,
+                <a href='http://www.parisleaf.com/' target='_blank'>Paris Leaf</a>
+                , to develop the site. I continued consulting with KarmaSapien to make small fixes and improvements to the site.
+              </p>
+            </div>
+            <!-- /span -->
+            <div class='col-md-8'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Tutoring
+                <i>Enthusiast</i>
+              </h4>
+              <p>
+                I enjoy teaching anyone who is interested in learning. I have
+                co-taught an Arduino class at the
+                <a href='http://skillhouse.org' target='_blank'>hackerspace,</a>
+                tutored K-8 at the local YMCA, and currently tutor web
+                development 2-3 days a week. I have also
+                <a href='https://www.facebook.com/events/561807407201008/' target='_blank'>given talks</a>
+                on getting started with programming.
+              </p>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='header'>
+            <h2>In My Spare Time</h2>
             <hr>
           </div>
           <div class='row'>
             <div class='col-md-6'>
               <h4>
                 <i class='glyphicon glyphicon-plus'></i>
-                Simple Calorie Tracker
+                <a href='https://github.com/barhamd/simple_calorie_tracker' target='_blank'>Simple Calorie Tracker</a>
               </h4>
-              <p>Didn't have a smartphone, so I developed this app to track my calorie consumption on the go via SMS.</p>
+              <p>
+                A very simple app for quickly tracking calories. I have a
+                tendency to try and record far too many details. This causes me
+                to stop recording quickly as it becomes too much of a hassle. I
+                created this app to only have a simple form and a simple
+                display so that I would simply use it.
+              </p>
+            </div>
+            <!-- /span -->
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                <a href='https://github.com/barhamd/new-member'>Hackerspace Member Registration</a>
+              </h4>
+              <p>Developed to reduce the workload of the Hackerspace's Secretary.</p>
+            </div>
+            <!-- /span -->
+          </div>
+          <!-- /row -->
+          <div class='row'>
+            <div class='col-md-6'>
+              <h4>
+                <i class='glyphicon glyphicon-plus'></i>
+                Sous-Vide
+              </h4>
+              <p>All of the commercial sous-vide devices were hundreds to thousands of dollars. Decided to construct</p>
             </div>
             <!-- /span -->
             <div class='col-md-6'>
@@ -143,84 +303,44 @@
             </div>
             <!-- /span -->
           </div>
-          <!-- /row -->
           <div class='row'>
             <div class='col-md-6'>
               <h4>
                 <i class='glyphicon glyphicon-plus'></i>
-                Stuff Game
+                Chemistry
               </h4>
-              <p>A game designed to be played on any screen, near or far from your friends.</p>
-            </div>
-            <!-- /span -->
-            <div class='col-md-6'>
-              <h4>
-                <i class='glyphicon glyphicon-plus'></i>
-                Hackerspace Member Registration
-              </h4>
-              <p>Developed to reduce the workload of the Hackerspace's Secretary.</p>
-            </div>
-            <!-- /span -->
-          </div>
-          <!-- /row -->
-          <div class='header'>
-            <h2>Work Experience.</h2>
-            <hr>
-          </div>
-          <div class='row'>
-            <div class='col-md-8'>
-              <h4>
-                <i class='glyphicon glyphicon-plus'></i>
-                Shadow Health, Inc.
-              </h4>
-              <h5>Nursing software company with over 11,000 users</h5>
-              <h5>Solution Stack:</h5>
-              <p>Ruby on Rails, jQuery, PostgreSQL, Heroku, Rspec</p>
-              <h5>Work I'm proud of:</h5>
               <ul>
-                <li>Created an internal analytics app to analyze user interaction</li>
-                <li>Redesigned registration process reducing duplicate accounts...kind of</li>
+                <li>
+                  After much trial and tribulation, I created
+                  <a href='http://youtu.be/-RG3nH6Wwms' target='_blank'>a small amount of ferrofluid</a>
+                </li>
+                <li>Isolating precious metals from electronics</li>
               </ul>
             </div>
             <!-- /span -->
-            <div class='col-md-8'>
+            <div class='col-md-6'>
               <h4>
                 <i class='glyphicon glyphicon-plus'></i>
-                Pathway Systems
+                Hackerspacing
               </h4>
-              <h5>SaaS Dependency Mapping Startup</h5>
-              <h5>Work I'm proud of:</h5>
               <ul>
-                <li>Significantly improved contact form conversion rate</li>
-                <li>Produced promotional and instructional product videos</li>
-                <li>Created a marketing campaign that significantly increased clientele</li>
+                <li>
+                  <a href='http://skillhouse.org/2013/02/12/2013-music-visualizer-hackathon-was-awesome/' target='_blank'>2013 Music Visualizer Hackathoning</a>
+                </li>
+                <li>
+                  <a href='http://skillhouse.org/2012/09/22/devins-sous-vide-steak/' target='_blank'>Sous-vide Demoing</a>
+                </li>
+                <li>
+                  <a href='http://skillhouse.org/2012/08/07/photos-from-the-mars-curiosity-rover-landing-party/' target='_blank'>Mars Landing Party Organizing</a>
+                </li>
+                <li>
+                  <a href='http://skillhouse.org/2012/05/27/powerwheels-orlando/' target='_blank'>Power Racing (1st Place!)</a>
+                </li>
               </ul>
             </div>
             <!-- /span -->
           </div>
           <!-- /row -->
-          <div class='header'>
-            <h2>Hobbies</h2>
-            <hr>
-          </div>
-          <div class='row'>
-            <div class='col-md-8'>
-              <h4>
-                <i class='glyphicon glyphicon-plus'></i>
-                Gainesville Hackerspace
-              </h4>
-              <p>Have been a member of the Hackerspace since early 2012. Have demoed projects. Became the Secretary. Helped teach a class (mention this here or in the tutoring section?).</p>
-            </div>
-            <!-- /span -->
-            <div class='col-md-8'>
-              <h4>
-                <i class='glyphicon glyphicon-plus'></i>
-                Tutoring
-              </h4>
-              <p>Tutored at the YMCA. Tutored numerous beginners. Consulted KarmaSapien (or should this go somewhere else?)</p>
-            </div>
-            <!-- /span -->
-          </div>
           <!-- /row -->
         </div>
         <!-- /span -->
@@ -231,10 +351,10 @@
         <p>
           <i class='glyphicon glyphicon-map-marker'></i>
           Gainesville, Fl
-          <i class='glyphicon glyphicon-signal'></i>
+          <i class='glyphicon glyphicon-earphone'></i>
           (561) 948-1526
           <i class='glyphicon glyphicon-globe'></i>
-          devinbarham.com
+          <a href='http://devinbarham.com'>devinbarham.com</a>
           <i class='glyphicon glyphicon-envelope'></i>
           <a href='mailto:devin.barham@gmail.com'>devin.barham@gmail.com</a>
         </p>
