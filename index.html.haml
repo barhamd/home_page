@@ -39,8 +39,8 @@
               %ul.dropdown-menu
                 %li
                   %a{href: 'https://github.com/barhamd/simple_calorie_tracker', target: '_blank'} Simple Calorie Tracker
-                %li
-                  %a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
+                -#%li
+                  -#%a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
     /Content
     .container
       .row
@@ -222,15 +222,18 @@
                 to stop recording quickly as it becomes too much of a hassle. I
                 created this app to only have a simple form and a simple
                 display so that I would simply use it.
+                %a{href: 'https://github.com/barhamd/simple_calorie_tracker', target: '_blank'} (GitHub)
+                %a{href: 'http://simple-calorie-tracker.herokuapp.com', target: '_blank'} (Demo)
             / /span
-            .col-md-6
-              %h4
-                %i.glyphicon.glyphicon-plus
-                %a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
-              %p
-                A simple single page sinatra app. Developed to reduce the
-                workload of the Hackerspace's Secretary. Collects a members info
-                and sends it off to the hackerspace board.
+            -#.col-md-6
+              -#%h4
+                -#%i.glyphicon.glyphicon-plus
+                -#%a{href: 'https://github.com/barhamd/new-member', target: '_blank'} Hackerspace Member Registration
+              -#%p
+                -#A simple single page sinatra app. Developed to reduce the
+                -#workload of the Hackerspace's Secretary. Collects a members info
+                -#and sends it off to the hackerspace board.
+                -#%a{href: 'https://github.com/barhamd/new-member', target: '_blank'} (GitHub)
             / /span
           / /row
           .row
@@ -239,18 +242,17 @@
                 %i.glyphicon.glyphicon-plus
                 Sous-Vide
               %p
-                %a{href: 'http://www.linkedin.com/in/markwhiting', target: '_blank'}
-                  Mark Whiting
+                %a{href: 'http://www.linkedin.com/in/markwhiting', target: '_blank'} Mark Whiting
                 and I created this one summer. We wanted to try
-                sous-vide but commercial sous-vide machines were $800+ at the
+                sous-vide but commercial machines were $800+ at the
                 time. We created this using a $50 PID controller, some wiring,
-                and a custom laser cut acrylic box.
+                and a custom laser cut acrylic box. Pictures coming soon!
             / /span
             .col-md-6
               %h4
                 %i.glyphicon.glyphicon-plus
                 IRritator
-              %p Toy to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds. Code coming soon!
+              %p Arduino device to irritate people by accepting TV's IR signal and resending it after 30 - 45 seconds. Code coming soon!
             / /span
           .row
             .col-md-6
